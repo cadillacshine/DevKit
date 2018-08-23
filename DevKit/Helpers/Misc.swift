@@ -207,6 +207,22 @@ extension UIView {
         self.rightAnchor.constraint(equalTo: baseView.rightAnchor, constant: -right).isActive = true
         self.heightAnchor.constraint(equalToConstant: height).isActive = true
     }
+    
+    public func anchorTo(baseView: UIView, left: CGFloat, right: CGFloat, height: CGFloat, centerY: Bool) {
+        self.translatesAutoresizingMaskIntoConstraints = false
+        self.leftAnchor.constraint(equalTo: baseView.leftAnchor, constant: left).isActive =  true
+        self.rightAnchor.constraint(equalTo: baseView.rightAnchor, constant: -right).isActive = true
+        self.heightAnchor.constraint(equalToConstant: height).isActive = true
+        self.centerYAnchor.constraint(equalTo: baseView.centerYAnchor).isActive = true
+    }
+
+   public func shake() {
+            let animation = CAKeyframeAnimation(keyPath: "transform.translation.x")
+            animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+            animation.duration = 0.6
+            animation.values = [-20.0, 20.0, -20.0, 20.0, -10.0, 10.0, -5.0, 5.0, 0.0 ]
+            layer.add(animation, forKey: "shake")
+        }
 }
 
 extension UIViewController {

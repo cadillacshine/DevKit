@@ -20,6 +20,7 @@ public class DevBaseView: UIView {
         self.layer.shadowRadius = 5.0
         self.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
         self.layer.masksToBounds = false
+        self.translatesAutoresizingMaskIntoConstraints = false
     }
     
     required public init?(coder aDecoder: NSCoder) {

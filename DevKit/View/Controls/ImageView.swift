@@ -15,6 +15,7 @@ public class DevImageView: UIImageView {
         self.contentMode = .scaleAspectFill
         self.layer.cornerRadius = 5
         self.clipsToBounds = true
+        self.translatesAutoresizingMaskIntoConstraints = false
     }
     
     required public init?(coder aDecoder: NSCoder) {

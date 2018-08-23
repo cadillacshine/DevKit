@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE0632B920FE631A0007CFAA /* Textview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0632B820FE631A0007CFAA /* Textview.swift */; };
 		FE2BE5812003655F00884DFB /* DevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2BE5772003655F00884DFB /* DevKit.framework */; };
 		FE2BE5862003655F00884DFB /* DevKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2BE5852003655F00884DFB /* DevKitTests.swift */; };
 		FE2BE5882003655F00884DFB /* DevKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2BE57A2003655F00884DFB /* DevKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE0632B820FE631A0007CFAA /* Textview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textview.swift; sourceTree = "<group>"; };
 		FE2BE5772003655F00884DFB /* DevKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DevKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2BE57A2003655F00884DFB /* DevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevKit.h; sourceTree = "<group>"; };
 		FE2BE57B2003655F00884DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				FE2BE5972003701000884DFB /* ImageView.swift */,
 				FEDB93CE200617E6001C7EC0 /* Textfield.swift */,
 				FECBF52E2012A18200111A56 /* Notification.swift */,
+				FE0632B820FE631A0007CFAA /* Textview.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				FEDB93CF200617E6001C7EC0 /* Textfield.swift in Sources */,
 				FEDB93CB200563AB001C7EC0 /* BaseTableViewController.swift in Sources */,
 				FE2BE6322003E41400884DFB /* Misc.swift in Sources */,
+				FE0632B920FE631A0007CFAA /* Textview.swift in Sources */,
 				FE2BE59620036E8A00884DFB /* Label.swift in Sources */,
 				FEDB93C22005617C001C7EC0 /* BaseDatasource.swift in Sources */,
 			);

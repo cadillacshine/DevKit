@@ -1,19 +1,16 @@
 //
-//  Button.swift
+//  Textview.swift
 //  DevKit
 //
-//  Created by DevFive on 1/8/18.
+//  Created by DevFive on 7/17/18.
 //  Copyright © 2018 sulvsystems. All rights reserved.
 //
 
 import Foundation
 
-public class DevButton: UIButton {
-  
-    public override init(frame: CGRect) {
-        super.init(frame: frame)
-        self.layer.cornerRadius = 5
-        self.clipsToBounds = true
+public class DevTextview: UITextView {
+    public override init(frame: CGRect, textContainer: NSTextContainer?) {
+        super.init(frame: frame, textContainer: textContainer)
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     
@@ -21,4 +18,3 @@ public class DevButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
 }
-

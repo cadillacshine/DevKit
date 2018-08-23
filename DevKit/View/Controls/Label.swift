@@ -12,6 +12,7 @@ public class DevLabel: UILabel {
     public init(text: String?) {
         super.init(frame: .zero)
         self.text =  text
+        self.translatesAutoresizingMaskIntoConstraints = false
     }
     
     public convenience init(text: String?, color: UIColor?) {
