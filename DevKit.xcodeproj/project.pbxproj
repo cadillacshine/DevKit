@@ -16,7 +16,10 @@
 		FE2BE59620036E8A00884DFB /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2BE59520036E8A00884DFB /* Label.swift */; };
 		FE2BE5982003701000884DFB /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2BE5972003701000884DFB /* ImageView.swift */; };
 		FE2BE6322003E41400884DFB /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2BE6312003E41400884DFB /* Misc.swift */; };
+		FE4CA5A32164E06500567948 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4CA5A22164E06500567948 /* BaseViewController.swift */; };
+		FE4CA5A52164E0A300567948 /* VwNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4CA5A42164E0A300567948 /* VwNotification.swift */; };
 		FECBF52F2012A18200111A56 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBF52E2012A18200111A56 /* Notification.swift */; };
+		FED0307721418C530018782A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0307621418C530018782A /* Date.swift */; };
 		FEDB93C22005617C001C7EC0 /* BaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB93C12005617C001C7EC0 /* BaseDatasource.swift */; };
 		FEDB93CB200563AB001C7EC0 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB93CA200563AB001C7EC0 /* BaseTableViewController.swift */; };
 		FEDB93CF200617E6001C7EC0 /* Textfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB93CE200617E6001C7EC0 /* Textfield.swift */; };
@@ -45,7 +48,10 @@
 		FE2BE59520036E8A00884DFB /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		FE2BE5972003701000884DFB /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		FE2BE6312003E41400884DFB /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		FE4CA5A22164E06500567948 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FE4CA5A42164E0A300567948 /* VwNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwNotification.swift; sourceTree = "<group>"; };
 		FECBF52E2012A18200111A56 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		FED0307621418C530018782A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		FEDB93C12005617C001C7EC0 /* BaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDatasource.swift; sourceTree = "<group>"; };
 		FEDB93CA200563AB001C7EC0 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		FEDB93CE200617E6001C7EC0 /* Textfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfield.swift; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 				FEDB93CE200617E6001C7EC0 /* Textfield.swift */,
 				FECBF52E2012A18200111A56 /* Notification.swift */,
 				FE0632B820FE631A0007CFAA /* Textview.swift */,
+				FE4CA5A42164E0A300567948 /* VwNotification.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -136,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				FE2BE6312003E41400884DFB /* Misc.swift */,
+				FED0307621418C530018782A /* Date.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				FEDB93CA200563AB001C7EC0 /* BaseTableViewController.swift */,
+				FE4CA5A22164E06500567948 /* BaseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -226,11 +235,12 @@
 				TargetAttributes = {
 					FE2BE5762003655F00884DFB = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					FE2BE57F2003655F00884DFB = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -280,10 +290,13 @@
 				FECBF52F2012A18200111A56 /* Notification.swift in Sources */,
 				FE2BE59420036E2900884DFB /* BaseView.swift in Sources */,
 				FEDB93CF200617E6001C7EC0 /* Textfield.swift in Sources */,
+				FE4CA5A32164E06500567948 /* BaseViewController.swift in Sources */,
 				FEDB93CB200563AB001C7EC0 /* BaseTableViewController.swift in Sources */,
 				FE2BE6322003E41400884DFB /* Misc.swift in Sources */,
 				FE0632B920FE631A0007CFAA /* Textview.swift in Sources */,
+				FED0307721418C530018782A /* Date.swift in Sources */,
 				FE2BE59620036E8A00884DFB /* Label.swift in Sources */,
+				FE4CA5A52164E0A300567948 /* VwNotification.swift in Sources */,
 				FEDB93C22005617C001C7EC0 /* BaseDatasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +455,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -464,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sulvsystems.DevKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -478,7 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sulvsystems.DevKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -492,7 +505,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sulvsystems.DevKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
